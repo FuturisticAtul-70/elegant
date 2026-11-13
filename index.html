@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Elegance Jewellery</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Great+Vibes&family=EB+Garamond&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="css/auth.css">
+<link rel="stylesheet" href="css/collection.css">
+<link rel="stylesheet" href="css/custom-design.css">
+<link rel="stylesheet" href="css/store.css">
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <svg viewBox="0 0 90 74" fill="none" stroke="#e8c18a" stroke-width="3" stroke-linejoin="round"><path d="M22 4h46l19 21L45 70 3 25z"/><path d="M3 25h84M32 4l-9 21 22 45 22-45-9-21M45 4l-10 21M45 4l10 21M35 25l10 45 10-45"/></svg>
+    <div><b>Elegance</b><i>Jewellery</i></div>
+  </div>
+  <div class="vr"></div>
+  <nav>
+    <a class="active" href="#">Home</a>
+    <a href="#">About Us</a>
+    <div class="dd"><a href="#">Collections</a>
+      <ul><li><a href="#">Necklaces</a></li><li><a href="#">Earrings</a></li><li><a href="#">Bridal Jewellery</a></li><li><a href="#">Rings</a></li><li><a href="#">Bracelets</a></li></ul></div>
+    <a href="#">Shop</a>
+    <a href="#">Custom Design</a>
+    <a href="#">Contact</a>
+    <a href="#" id="navOrders" style="display:none">My Orders</a>
+  </nav>
+  <div class="icons">
+    <svg id="srchBtn" role="button" aria-label="Search" viewBox="0 0 40 40"><circle cx="17" cy="17" r="11"/><path d="M25 25l11 11"/></svg>
+    <div class="usr" id="userBtn" title="Login"><svg viewBox="0 0 40 40"><circle cx="20" cy="12" r="7"/><path d="M6 36c0-9 6-14 14-14s14 5 14 14z"/></svg><i class="dot"></i></div>
+    <div class="cart"><svg viewBox="0 0 40 40"><path d="M3 6h6l5 21h18l4-15H11"/><circle cx="16" cy="34" r="2.5"/><circle cx="29" cy="34" r="2.5"/></svg><span id="cnt">0</span></div>
+  </div>
+  <form class="srch" id="srch" role="search" autocomplete="off">
+    <div class="srch-in">
+      <svg viewBox="0 0 40 40"><circle cx="17" cy="17" r="11"/><path d="M25 25l11 11"/></svg>
+      <input id="srchQ" type="search" placeholder="Search rings, necklaces, gold, diamond&hellip;" aria-label="Search jewellery" enterkeyhint="search">
+      <button type="submit" class="srch-go">Search</button>
+      <button type="button" class="srch-x" id="srchX" aria-label="Close search">&times;</button>
+    </div>
+    <div class="srch-tags"><span>Try:</span><button type="button">Platinum</button><button type="button">Diamond</button><button type="button">Gold</button><button type="button">Silver</button><button type="button">Ring</button><button type="button">Necklace</button><button type="button">Bridal</button></div>
+  </form>
+</header>
+
+<section class="hero">
+  <div class="scene"><div class="glow"></div><img class="photo" alt="Elegance Jewellery diamond necklace and earrings" src="assets/images/hero-main.jpg"></div>
+  <div class="content">
+    <div class="orn"><hr><svg viewBox="0 0 90 74" fill="none" stroke="#e8c18a" stroke-width="3" stroke-linejoin="round"><path d="M22 4h46l19 21L45 70 3 25z"/><path d="M3 25h84M32 4l-9 21 22 45 22-45-9-21"/></svg><hr></div>
+    <div class="welcome">Welcome to</div>
+    <h1>Elegance Jewellery</h1>
+    <div class="script">Shine Bright, Wear Elegance.</div>
+    <svg class="curve" viewBox="0 0 330 20"><defs><linearGradient id="cg"><stop offset="0" stop-color="#e8c18a" stop-opacity="0"/><stop offset=".5" stop-color="#e8c18a"/><stop offset="1" stop-color="#e8c18a" stop-opacity="0"/></linearGradient></defs><path d="M0 18Q165 -6 330 16" stroke="url(#cg)" stroke-width="2.5" fill="none"/></svg>
+    <p class="desc">Discover beautiful jewellery designed to make every moment special. From elegant everyday pieces to stunning jewellery for weddings and celebrations, we bring you timeless designs with a modern touch.</p>
+    <div class="btns">
+      <a class="btn p" id="shop">Shop Now <svg width="26" height="20" viewBox="0 0 26 20" fill="none" stroke="#2a170a" stroke-width="2.2" stroke-linecap="round"><path d="M2 10h21M15 3l8 7-8 7"/></svg></a>
+      <a class="btn s" href="#">Explore Collection</a>
+    </div>
+  </div>
+  <div class="strip">
+    <span class="ln"></span>
+    <div class="items">
+      <span>&#9670; Certified Diamonds</span>
+      <span>&#9670; Handcrafted Designs</span>
+      <span>&#9670; Free Insured Shipping</span>
+      <span>&#9670; Easy 30-Day Returns</span>
+    </div>
+    <span class="ln"></span>
+  </div>
+</section>
+<section class="about" id="about">
+  <div class="about-in">
+    <div class="a-media">
+      <div class="a-glow"></div>
+      <div class="a-back"></div>
+      <div class="a-frame"><img alt="Sparkling diamond ring in gold setting" src="assets/images/about-jewellery.jpg"><span class="a-cap">Brilliance, perfectly set.</span></div>
+      <span class="a-dia d1"></span><span class="a-dia d2"></span>
+    </div>
+    <div class="a-txt">
+      <div class="orn rv" style="--d:0"><hr><svg viewBox="0 0 90 74" fill="none" stroke="#e8c18a" stroke-width="3" stroke-linejoin="round"><path d="M22 4h46l19 21L45 70 3 25z"/><path d="M3 25h84M32 4l-9 21 22 45 22-45-9-21"/></svg><hr></div>
+      <div class="a-kick rv" style="--d:1">Our Story</div>
+      <h2 class="rv" style="--d:2">About Elegance Jewellery</h2>
+      <div class="a-script rv" style="--d:3">Where every sparkle tells a story.</div>
+      <p class="rv" style="--d:4">At Elegance Jewellery, we believe a piece of jewellery is never just an ornament &mdash; it is a feeling, a memory, a promise worn close to the heart. Born in Ludhiana from a love of fine craftsmanship, our little house of sparkle exists for one simple joy: seeing someone&rsquo;s eyes light up.</p>
+      <p class="rv" style="--d:5">From certified diamonds to timeless golden designs for weddings, celebrations and every day, each piece is chosen with care. Honest quality, fair prices, personal service &mdash; because when you shine, we shine too.</p>
+      <div class="a-feat rv" style="--d:6">
+        <div><b>Certified Diamonds</b><span>Brilliance you can trust.</span></div>
+        <div><b>Handcrafted Designs</b><span>Made with patience and pride.</span></div>
+        <div><b>Made for Moments</b><span>Weddings, celebrations &amp; every day.</span></div>
+      </div>
+      <div class="a-btns rv" style="--d:7">
+        <a class="btn p" id="backHome">Back to Home</a>
+        <a class="btn s" href="#">Explore Collection</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="cust" id="custom">
+  <div class="cu-in">
+    <div class="cu-l">
+      <div class="orn rv" style="--d:0"><hr><svg viewBox="0 0 90 74" fill="none" stroke="#e8c18a" stroke-width="3" stroke-linejoin="round"><path d="M22 4h46l19 21L45 70 3 25z"/><path d="M3 25h84M32 4l-9 21 22 45 22-45-9-21"/></svg><hr></div>
+      <div class="a-kick rv" style="--d:1">Custom Design</div>
+      <h2 class="rv" style="--d:2">Design Your Own Jewellery</h2>
+      <div class="a-script rv" style="--d:3">Made just for you.</div>
+      <p class="rv" style="--d:4">Dreaming of a piece you can&rsquo;t find? Tell us what you have in mind &mdash; the type, the material and every little detail &mdash; and add a reference design web link if you have one. We&rsquo;ll talk it through with you on WhatsApp.</p>
+      <ul class="cu-steps rv" style="--d:5">
+        <li><b>1</b><span>Fill in the details of the jewellery you want.</span></li>
+        <li><b>2</b><span>Choose the occasion and your preferred style.</span></li>
+        <li><b>3</b><span>Add a reference design web link (optional) and send your request.</span></li>
+      </ul>
+    </div>
+    <div class="cu-card rv" style="--d:3">
+      <form id="cuForm" novalidate>
+        <div class="cu-row">
+          <div><label for="cuName">Your Name <i class="req">*</i></label><input id="cuName" type="text" placeholder="Full name" autocomplete="name"></div>
+          <div><label for="cuPh">Mobile Number <i class="req">*</i></label><input id="cuPh" type="tel" placeholder="10-digit mobile" autocomplete="tel" inputmode="tel"></div>
+        </div>
+        <div class="cu-lab">Jewellery Type <i>*</i></div>
+        <div class="chips" id="cuType" data-multi="0"></div>
+        <div class="cu-lab">Material <i>*</i> <span style="color:#a8977f;font-weight:400">(choose one or more)</span></div>
+        <div class="chips" id="cuMat" data-multi="1"></div>
+        <div class="cu-row" style="margin-top:16px">
+          <div><label for="cuBud">Budget <span style="color:#a8977f;font-weight:400">(optional)</span></label><input id="cuBud" type="text" placeholder="e.g. &#8377;20,000 &ndash; 30,000"></div>
+          <div><label for="cuDate">Needed By <span style="color:#a8977f;font-weight:400">(optional)</span></label><input id="cuDate" type="date"></div>
+        </div>
+        <div class="cu-lab">Occasion <i>*</i></div>
+        <div class="chips" id="cuOccasion" data-multi="0"></div>
+        <div class="cu-lab">Preferred Style <i>*</i></div>
+        <div class="chips" id="cuStyle" data-multi="0"></div>
+        <label for="cuMsg" style="margin-top:16px">Your Message <i class="req">*</i></label>
+        <textarea id="cuMsg" placeholder="Describe your dream piece: design, stones, size, engraving, occasion, anything special&hellip;"></textarea>
+        <div class="cu-lab">Reference Design Web Link <span style="color:#a8977f;font-weight:400">(optional)</span></div>
+        <div class="cu-link-box">
+          <input id="cuRefUrl" type="url" placeholder="https://example.com/your-design">
+        </div>
+        <div class="cu-link-note">Add a link to Pinterest, Instagram, Google Drive, a product page, or any other online reference. The admin can open the link directly.</div>
+        <div class="cu-err" id="cuErr"></div>
+        <button type="submit" class="cu-go"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l-1.4 4.9L5 20.7A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.6.1a6.700 6.700 0 0 1-3.300-2.900c-.2-.4.2-.4.700-1.300.1-.2 0-.3 0-.5l-.8-1.900c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0 1.100 2.200 5.200 5.200 0 0 0 1.100 2.800 11.800 11.800 0 0 0 4.500 4c.6.3 1.100.4 1.500.5a3.600 3.600 0 0 0 1.700-.1 2.800 2.800 0 0 0 1.900-1.300 2.300 2.300 0 0 0 .2-1.300c-.1-.1-.3-.2-.5-.3z"/></svg>Send on WhatsApp</button>
+        <div class="cu-hint" id="cuHint">Your message opens in WhatsApp, ready to send to Elegance Jewellery.</div>
+      </form>
+      <div class="cu-done" id="cuDone">
+        <h3 id="cuDH">Almost there!</h3>
+        <p id="cuDP">We opened WhatsApp with your request.</p>
+        <ol id="cuDL"></ol>
+        <div class="cu-acts">
+          <a class="btn p" id="cuAgain">Open WhatsApp Again</a>
+          <a class="btn s" id="cuPhoto">Share / Save Photo</a>
+          <a class="btn s" id="cuBoth">Photo + Message Together</a>
+          <a class="btn s" id="cuNew">New Request</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="store" id="store">
+  <div class="st-in">
+    <div class="st-head">
+      <div class="orn rv" style="--d:0"><hr><svg viewBox="0 0 90 74" fill="none" stroke="#e8c18a" stroke-width="3" stroke-linejoin="round"><path d="M22 4h46l19 21L45 70 3 25z"/><path d="M3 25h84M32 4l-9 21 22 45 22-45-9-21"/></svg><hr></div>
+      <div class="a-kick rv" style="--d:1">The Shop</div>
+      <h2 class="rv" style="--d:2">Shop Fine Jewellery</h2>
+      <div class="a-script rv" style="--d:3">Every piece, ready to be yours.</div>
+    </div>
+    <div class="st-category-tabs rv" id="stCategoryTabs" aria-label="Jewellery categories" style="--d:4"></div>
+    <div class="st-main rv" style="--d:5">
+      <div class="st-prod">
+        <div class="st-toolbar">
+          <span id="stCount" class="st-count"></span>
+          <div class="st-tools">
+            <label class="st-select-wrap"><span>Material</span>
+              <select id="stMatFilter" aria-label="Filter by material">
+                <option value="All">All materials</option><option value="Gold">Gold</option><option value="Silver">Silver</option><option value="Diamond">Diamond</option><option value="Platinum">Platinum</option>
+              </select>
+            </label>
+            <label class="st-price-wrap"><span class="st-price-title">Price up to <b id="stRv"></b></span>
+              <input type="range" id="stRange" min="0" step="500" aria-label="Maximum price">
+              <span class="st-price-limits"><small>&#8377;0</small><small>Adjust your budget</small></span>
+            </label>
+            <select id="stSort" aria-label="Sort products"><option value="featured">Sort: Featured</option><option value="tier">Material: Platinum first</option><option value="high">Price: High to Low</option><option value="low">Price: Low to High</option></select>
+            <button type="button" class="st-reset" id="stReset">Reset Filters</button>
+          </div>
+        </div>
+        <div class="st-grid" id="stGrid"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="shop" id="collection">
+  <div class="shop-in">
+    <div class="orn rv" style="--d:0"><hr><svg viewBox="0 0 90 74" fill="none" stroke="#e8c18a" stroke-width="3" stroke-linejoin="round"><path d="M22 4h46l19 21L45 70 3 25z"/><path d="M3 25h84M32 4l-9 21 22 45 22-45-9-21"/></svg><hr></div>
+    <div class="a-kick rv" style="--d:1">Our Collection</div>
+    <h2 class="rv" style="--d:2">Jewellery for Every Moment</h2>
+    <div class="a-script rv" style="--d:3">Find the piece that feels like you.</div>
+    <div class="filters rv" id="filters" style="--d:4"></div>
+    <div class="pgrid" id="pgrid"></div>
+    <div class="shop-cta"><h4>Can&rsquo;t find your perfect piece?</h4><p>Tell us what you dream of &mdash; we&rsquo;ll create it just for you.</p><a class="btn p" id="ctaCustom">Create Custom Jewellery</a></div>
+  </div>
+</section>
+<section class="cust ct" id="contact">
+  <div class="cu-in">
+    <div class="cu-l">
+      <div class="orn rv" style="--d:0"><hr><svg viewBox="0 0 90 74" fill="none" stroke="#e8c18a" stroke-width="3" stroke-linejoin="round"><path d="M22 4h46l19 21L45 70 3 25z"/><path d="M3 25h84M32 4l-9 21 22 45 22-45-9-21"/></svg><hr></div>
+      <div class="a-kick rv" style="--d:1">Contact Us</div>
+      <h2 class="rv" style="--d:2">We&rsquo;d Love to Hear From You</h2>
+      <div class="a-script rv" style="--d:3">Ask us anything.</div>
+      <div class="ct-list rv" style="--d:4">
+                <a class="ct-item" href="tel:+917009638561"><i><svg viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg></i><div><b>Call Us</b><span>+91 70096 38561</span></div></a>
+        <a class="ct-item" href="mailto:kawal.elegance.jewellery@gmail.com"><i><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></i><div><b>Email Us</b><span>kawal.elegance.jewellery@gmail.com</span></div></a>
+        <div class="ct-item"><i><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></i><div><b>Opening Hours</b><span>Mon &ndash; Sat: 10:00 AM &ndash; 8:00 PM</span></div></div>
+      </div>
+      <div class="ct-btns rv" style="--d:5">
+        <a class="btn s" target="_blank" rel="noopener" href="https://www.instagram.com/kaur_preet_1701">Instagram</a>
+      </div>
+    </div>
+    <div class="cu-card rv" style="--d:3">
+      <h3 class="ct-h">Send Us a Message</h3>
+      <p class="ct-p">Ask about a design, price, availability or an order &mdash; your question goes straight to the owner on WhatsApp.</p>
+      <form id="ctForm" novalidate>
+        <div class="cu-row">
+          <div><label for="ctName">Your Name <i class="req">*</i></label><input id="ctName" type="text" placeholder="Full name" autocomplete="name"></div>
+          <div><label for="ctPh">Mobile Number <i class="req">*</i></label><input id="ctPh" type="tel" placeholder="10-digit mobile" autocomplete="tel" inputmode="tel"></div>
+        </div>
+        <label for="ctMsg" style="margin-top:16px">Your Question <i class="req">*</i></label>
+        <textarea id="ctMsg" placeholder="Type your question here&hellip;"></textarea>
+        <div class="cu-err" id="ctErr"></div>
+        <button type="submit" class="cu-go"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.6.1a6.700 6.700 0 0 1-3.300-2.900c-.2-.4.2-.4.700-1.300.1-.2 0-.3 0-.5l-.8-1.900c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.200 5.200 5.200 0 0 0 1.100 2.800 11.800 11.800 0 0 0 4.500 4c.6.3 1.100.4 1.500.5a3.600 3.600 0 0 0 1.700-.1 2.800 2.800 0 0 0 1.900-1.300 2.300 2.300 0 0 0 .2-1.300c-.1-.1-.3-.2-.5-.3z"/></svg> Send on WhatsApp</button>
+        <div class="cu-hint">WhatsApp opens with your message ready &mdash; just tap Send.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div class="co-ov" id="coOv"><div class="co" role="dialog" aria-label="Checkout">
+  <div class="co-h"><h3>Checkout</h3><button type="button" id="coX" aria-label="Close">&times;</button></div>
+  <form id="coForm" novalidate>
+   <div class="co-body">
+    <div class="co-col">
+      <h5>1. Delivery Details</h5>
+      <div class="cu-row"><div><label for="coName">Full Name <i class="req">*</i></label><input id="coName" type="text" autocomplete="name" placeholder="Your name"></div>
+      <div><label for="coPh">Mobile <i class="req">*</i></label><input id="coPh" type="tel" inputmode="tel" autocomplete="tel" placeholder="10-digit mobile"></div></div>
+      <label for="coAd">Delivery Address <i class="req">*</i></label><textarea id="coAd" placeholder="House no., street, area, landmark"></textarea>
+      <div class="cu-row"><div><label for="coCity">City <i class="req">*</i></label><input id="coCity" type="text" autocomplete="address-level2" placeholder="e.g. Ludhiana"></div>
+      <div><label for="coPin">Pincode <i class="req">*</i></label><input id="coPin" type="text" inputmode="numeric" maxlength="6" autocomplete="postal-code" placeholder="6 digits"></div></div>
+      <h5 style="margin-top:22px">2. Payment Method</h5>
+      <div class="co-pay">
+        <label class="co-opt"><input type="radio" name="coPm" value="COD" checked><span><b>Cash on Delivery</b><small>Pay when your order arrives</small></span></label>
+        <label class="co-opt"><input type="radio" name="coPm" value="UPI"><span><b>UPI &middot; Scan &amp; Pay</b><small>GPay, PhonePe, Paytm, any UPI app</small></span></label>
+      </div>
+      <div class="co-upi" id="coUpi">
+        <img src="assets/images/upi-payment.jpg" alt="UPI QR code - Kawal Preet">
+        <div class="co-upi-i">
+          <div class="co-pn">Kawal Preet</div>
+          <div class="co-id">UPI ID: <b id="coUpiId">pkawal255@oksbi</b> <button type="button" id="coCopy">Copy</button></div>
+          <div class="co-amt">Pay exactly <b id="coAmt"></b></div>
+          <a class="co-app" id="coApp" href="#">Pay with UPI app</a>
+          <small>On a computer: scan the QR with your phone. On mobile: tap the button above.</small>
+        </div>
+        <div class="co-utr"><label for="coUtr">UPI Transaction / Reference ID <i class="req">*</i></label><input id="coUtr" type="text" placeholder="12-digit Ref No. shown after payment" autocomplete="off"></div>
+      </div>
+    </div>
+    <div class="co-col co-sum">
+      <h5>Order Summary</h5>
+      <div id="coItems"></div>
+      <div class="co-row"><span>Subtotal</span><b id="coSub"></b></div>
+      <div class="co-row"><span>Delivery</span><b>Free</b></div>
+      <div class="co-row co-tot"><span>Total</span><b id="coTot"></b></div>
+      <div class="cu-err" id="coErr"></div>
+      <button type="submit" class="cu-go" id="coGo">Place Order &amp; Get Invoice</button>
+      <div class="cu-hint">Your order is also sent to the owner on WhatsApp for confirmation.</div>
+    </div>
+   </div>
+  </form>
+</div></div>
+
+<div class="co-ov" id="invOv"><div class="inv-wrap" role="dialog" aria-label="Invoice">
+  <div class="inv-bar"><span class="inv-ok">&#10003; Order placed successfully</span>
+    <div><button type="button" class="inv-b" id="invPrint">Print / Save PDF</button><button type="button" class="inv-b" id="invWa">Send on WhatsApp</button><button type="button" class="inv-b" id="invMo">My Orders</button><button type="button" class="inv-b inv-x" id="invX">Close</button></div></div>
+  <div class="inv-paper" id="invPaper"></div>
+</div></div>
+<section class="cust mo" id="orders">
+  <div class="mo-in">
+    <div class="mo-head">
+      <div class="a-kick rv" style="--d:0">My Account</div>
+      <h2 class="rv" style="--d:1">My Orders</h2>
+      <div class="a-script rv" style="--d:2" id="moHi"></div>
+    </div>
+    <div class="mo-list rv" style="--d:3" id="moList"></div>
+  </div>
+</section>
+<footer class="foot">
+  <div class="foot-top">
+    <div class="fcol fabout">
+      <div class="flogo">
+        <svg viewBox="0 0 90 74" fill="none" stroke="#e8c18a" stroke-width="3" stroke-linejoin="round"><path d="M22 4h46l19 21L45 70 3 25z"/><path d="M3 25h84M32 4l-9 21 22 45 22-45-9-21"/></svg>
+        <div><b>Elegance</b><i>Jewellery</i></div>
+      </div>
+      <p>Timeless jewellery crafted to make every moment special &mdash; for weddings, celebrations and everyday elegance.</p>
+      <div class="social">
+        <a href="https://www.instagram.com/kaur_preet_1701" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8"/></svg></a>
+        <a href="https://wa.me/917009638561" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M3 21l1.6-4.6A8.5 8.5 0 1 1 8 19.6L3 21z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.2-1.4-2-1-1 .8c-1-.5-1.8-1.3-2.3-2.3l.8-1-1-2L9 9.5z"/></svg></a>
+      </div>
+    </div>
+    <div class="fcol fcontact"><h4>Contact Us</h4>
+      <span>+91 70096 38561</span>
+      <span>kawal.elegance.jewellery@gmail.com</span>
+      <span>Mon &ndash; Sat: 10:00 AM &ndash; 8:00 PM</span>
+    </div>
+  </div>
+  <div class="foot-line"><span></span><svg viewBox="0 0 90 74" fill="none" stroke="#e8c18a" stroke-width="3" stroke-linejoin="round"><path d="M22 4h46l19 21L45 70 3 25z"/></svg><span></span></div>
+  <div class="foot-bottom">
+    <span>&copy; 2026 Elegance Jewellery. All rights reserved.</span>
+    <span class="fleg"><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a><a href="#">Shipping &amp; Returns</a></span>
+  </div>
+</footer>
+<div class="pm-ov" id="pmOv"><div class="pm" role="dialog" aria-modal="true" aria-label="Product details">
+  <button class="pm-x" id="pmX" aria-label="Close">&times;</button>
+  <div class="pm-img" id="pmImg"><img id="pmPic" alt=""></div>
+  <div class="pm-info">
+    <div class="pm-cat" id="pmCat"></div>
+    <h3 id="pmName"></h3>
+    <div class="pm-mat" id="pmMat"></div>
+    <div class="pm-price" id="pmPrice"></div>
+    <p class="pm-desc" id="pmDesc"></p>
+    <dl class="pm-attrs" id="pmAttrs"></dl>
+    <div class="pm-btns"><a class="btn p" id="pmAdd" style="display:none">Add to Cart</a><a class="btn p" id="pmClose">Close</a></div>
+  </div>
+</div></div>
+<div class="cd-ov" id="cdOv"><aside class="cd" role="dialog" aria-label="Your cart">
+  <div class="cd-h"><h3>Your Cart</h3><button id="cdX" aria-label="Close">&times;</button></div>
+  <div class="cd-list" id="cdList"></div>
+  <div class="cd-f" id="cdF">
+    <div class="cd-t"><span>Total</span><b id="cdTot"></b></div>
+    <button type="button" class="cu-go" id="cdOrder">Checkout <svg viewBox="0 0 24 24" style="fill:none;stroke:#2a170a;stroke-width:2.2;stroke-linecap:round"><path d="M3 12h17M14 5l7 7-7 7"/></svg></button>
+    <div class="cu-hint">Pay by Cash on Delivery or UPI &middot; Invoice generated instantly</div>
+  </div>
+</aside></div>
+<div class="lg-ov" id="lgOv"><div class="lg" role="dialog" aria-modal="true" aria-label="Login">
+  <button class="lg-x" id="lgX" aria-label="Close">&times;</button>
+  <svg class="lg-ic" viewBox="0 0 90 74" fill="none" stroke="#e8c18a" stroke-width="3" stroke-linejoin="round"><path d="M22 4h46l19 21L45 70 3 25z"/><path d="M3 25h84M32 4l-9 21 22 45 22-45-9-21"/></svg>
+  <h3 id="lgTitle">Welcome Back</h3>
+  <div class="lg-sub" id="lgSub">Login to your Elegance account</div>
+  <div id="lgForm">
+    <div class="lg-tabs"><button type="button" id="tLogin" class="on">Login</button><button type="button" id="tSign">Sign Up</button></div>
+    <div id="rowName" class="lg-hide"><label for="lgName">Full Name</label><input id="lgName" type="text" placeholder="Your name" autocomplete="name"></div>
+    <label for="lgId">Email or Mobile Number</label>
+    <input id="lgId" type="text" placeholder="name@email.com or 10-digit mobile" autocomplete="username">
+    <div id="rowPw"><label for="lgPw">Password</label>
+    <div class="lg-f"><input id="lgPw" type="password" placeholder="Enter your password" autocomplete="current-password"><button type="button" class="lg-eye" data-for="lgPw">Show</button></div></div>
+    <div id="rowPw2" class="lg-hide"><label for="lgPw2">Confirm Password</label>
+    <div class="lg-f"><input id="lgPw2" type="password" placeholder="Re-enter password" autocomplete="new-password"><button type="button" class="lg-eye" data-for="lgPw2">Show</button></div></div>
+    <div id="rowCode" class="lg-hide"><label for="lgCode">SMS confirmation code</label><input id="lgCode" type="text" inputmode="numeric" autocomplete="one-time-code" placeholder="Enter the SMS code"><div class="lg-note" id="lgCodeHelp">Enter the SMS code sent to your phone.</div></div>
+    <div class="lg-err" id="lgErr"></div>
+    <button type="button" class="lg-go" id="lgGo">Login</button>
+    <div class="lg-note" id="lgNote">New here? <a id="lgSwitch">Create an account</a></div>
+    <div class="lg-note lg-hide" id="lgResend"><a id="lgResendLink">Resend confirmation code</a></div>
+    <div class="lg-note lg-hide" id="lgCancelVerify"><a id="lgCancelVerifyLink">Back to login</a></div>
+  </div>
+  <div id="lgUser" class="lg-hide">
+    <div class="lg-who">Signed in as <b id="lgWho"></b></div>
+    <button type="button" class="lg-go lg-orders" id="lgOrders">My Orders</button>
+    <button type="button" class="lg-go" id="lgOut">Logout</button>
+  </div>
+  <button type="button" class="lg-admin-link" id="adminOpen">Admin Login</button>
+</div></div>
+<div class="lg-ov" id="adminLoginOv">
+  <section class="lg" role="dialog" aria-modal="true" aria-labelledby="adminLoginTitle">
+    <button class="lg-x" id="adminLoginX" type="button" aria-label="Close administrator login">&times;</button>
+    <svg class="lg-ic" viewBox="0 0 90 74" fill="none" stroke="#e8c18a" stroke-width="3" stroke-linejoin="round"><path d="M22 4h46l19 21L45 70 3 25z"/><path d="M3 25h84M32 4l-9 21 22 45 22-45-9-21"/></svg>
+    <h3 id="adminLoginTitle">Administrator Access</h3>
+    <div class="lg-sub">Sign in with your administrator username and password</div>
+    <div>
+      <label for="adminUser">Username</label>
+      <input id="adminUser" type="text" placeholder="Admin username" autocomplete="username">
+      <label for="adminPass">Password</label>
+      <div class="lg-f"><input id="adminPass" type="password" placeholder="Enter admin password" autocomplete="current-password"><button type="button" class="lg-eye" id="adminEye">Show</button></div>
+      <div class="lg-err" id="adminErr"></div>
+      <button type="button" class="lg-go" id="adminGo">Sign In</button>
+      <button type="button" class="admin-back" id="adminBack">Back to Customer Login</button>
+    </div>
+  </section>
+</div>
+<div class="admin-ov" id="adminOv">
+  <section class="admin-panel" role="dialog" aria-modal="true" aria-label="Admin Dashboard">
+    <div class="admin-shell">
+      <aside class="admin-side" id="adminSide">
+        <div class="admin-brand"><div class="admin-brand-mark">EJ</div><div><b>Elegance Jewellery</b><span>Store Administration</span></div></div>
+        <nav class="admin-nav" id="adminNav">
+          <button class="active" data-page="dashboard"><span class="ico">▦</span>Dashboard</button>
+          <button data-page="jewellery"><span class="ico">◇</span>Jewellery</button>
+          <button data-page="orders"><span class="ico">▣</span>Orders</button>
+          <button data-page="customers"><span class="ico">♙</span>Customers</button>
+          <button data-page="custom"><span class="ico">✦</span>Custom Requests</button>
+          <button data-page="reports"><span class="ico">◒</span>Reports</button>
+        </nav>
+        <div class="admin-side-bottom"><button type="button" id="adminLogout">↪ &nbsp;Logout</button></div>
+      </aside>
+      <main class="admin-main">
+        <header class="admin-top">
+          <div class="admin-top-title"><div style="display:flex;align-items:center;gap:10px"><button class="admin-mobile-menu" id="adminMenuBtn" type="button">☰</button><div><b id="adminPageTitle">Dashboard</b><span id="adminPageSub">Store overview and recent activity</span></div></div></div>
+          <div class="admin-top-actions"><button type="button" id="adminExportAll">Export All</button><button type="button" class="primary" id="adminQuickAdd">+ Add Jewellery</button><span class="admin-user-pill"><i class="admin-user-dot"></i>Administrator</span></div>
+        </header>
+        <div class="admin-body">
+          <section class="admin-page active" id="adPageDashboard">
+            <div class="admin-stats">
+              <div class="admin-stat"><div class="admin-stat-top"><span class="admin-stat-label">Total Jewellery</span><span class="admin-stat-icon">◇</span></div><b id="adStatProducts">0</b><small>Products in catalogue</small></div>
+              <div class="admin-stat"><div class="admin-stat-top"><span class="admin-stat-label">Customers</span><span class="admin-stat-icon">♙</span></div><b id="adStatUsers">0</b><small>Registered accounts</small></div>
+              <div class="admin-stat"><div class="admin-stat-top"><span class="admin-stat-label">Orders</span><span class="admin-stat-icon">▣</span></div><b id="adStatOrders">0</b><small id="adStatOrderNote">All booked orders</small></div>
+              <div class="admin-stat"><div class="admin-stat-top"><span class="admin-stat-label">Total Sales</span><span class="admin-stat-icon">₹</span></div><b id="adStatSales">₹0</b><small>Order value</small></div>
+              <div class="admin-stat"><div class="admin-stat-top"><span class="admin-stat-label">Custom Requests</span><span class="admin-stat-icon">✦</span></div><b id="adStatCustom">0</b><small>Design enquiries</small></div>
+            </div>
+            <div class="admin-dashboard-grid">
+              <section class="admin-card"><div class="admin-sec-head"><div><h3>Recent Orders</h3><p>Latest bookings from your customers.</p></div><button class="admin-btn" type="button" data-go="orders">View All Orders</button></div><div id="adRecentOrders" class="admin-mini-list"></div></section>
+            </div>
+            <section class="admin-card"><div class="admin-sec-head"><div><h3>Sales Overview</h3><p>Order value grouped by the last seven days.</p></div></div><div id="adChart" class="admin-chart"></div><div id="adChartLabels" class="admin-chart-labels"></div></section>
+          </section>
+
+          <section class="admin-page" id="adPageJewellery">
+            <section class="admin-card">
+              <div class="admin-sec-head"><div><h3>Jewellery</h3><p>Add, edit, search and manage the jewellery catalogue.</p></div><div class="admin-sec-actions"><button class="admin-btn" id="adCancelEdit" type="button" style="display:none">Cancel Edit</button></div></div>
+              <div class="admin-toolbar"><input class="admin-search" id="adProductSearch" type="search" placeholder="Search jewellery by name, category or material"><select class="admin-select" id="adProductFilter"><option value="All">All categories</option><option>Rings</option><option>Earrings</option><option>Necklaces</option><option>Bracelets</option><option>Bridal Jewellery</option></select><span class="admin-count" id="adProductCount">0 products</span></div>
+              <form id="adProductForm" class="admin-form">
+                <input type="hidden" id="adProductId">
+                <div><label>Product Name</label><input id="adName" required placeholder="e.g. Royal Diamond Ring"></div>
+                <div><label>Category</label><select id="adCat"><option>Rings</option><option>Earrings</option><option>Necklaces</option><option>Bracelets</option><option>Bridal Jewellery</option></select></div>
+                <div><label>Material</label><select id="adMat"><option>Gold</option><option>Silver</option><option>Diamond</option><option>Platinum</option></select></div>
+                <div><label>Price (₹)</label><input id="adPrice" type="number" min="2000" max="20000" required placeholder="12999"></div>
+                <div><label>Stock Quantity</label><input id="adStock" type="number" min="0" placeholder="10"><small class="admin-help">Stock is managed with this jewellery product.</small></div>
+                <div><label>Image Display</label><select id="adFit"><option value="cover">Fill / Cover</option><option value="contain">Fit / Contain</option></select></div>
+                <div class="wide"><label>Product Photo</label><div class="admin-upload"><label class="admin-upload-box" for="adImgFile"><input id="adImgFile" type="file" accept="image/jpeg,image/png,image/webp,image/gif,image/*"><div id="adImgEmpty"><b>Upload jewellery photo</b><span>Click to choose or drag &amp; drop</span><small>JPG, PNG or WebP · optimized automatically</small></div><img id="adImgPreview" alt="Product preview"></label><div class="admin-upload-meta"><span id="adImgMeta">No new photo selected</span><button type="button" class="admin-btn" id="adImgRemove">Remove Photo</button></div></div></div>
+                <div class="wide"><label>Description</label><textarea id="adDesc" rows="3" placeholder="Short product description"></textarea></div>
+                <div class="admin-spec-grid wide"><div><label>Finish</label><input id="adFinish" placeholder="High polish, matte"></div><div><label>Stone</label><input id="adStone" placeholder="Diamond, ruby, pearl"></div><div><label>Design</label><input id="adDesign" placeholder="Solitaire, cluster"></div><div><label>Occasion</label><input id="adOccasion" placeholder="Wedding, gifting"></div><div><label>Care</label><input id="adCare" placeholder="Avoid perfume &amp; water"></div></div>
+                <div class="admin-form-actions"><button type="submit" class="admin-btn primary" id="adSaveProduct">Add Jewellery</button></div>
+              </form>
+              <div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>Image</th><th>Jewellery</th><th>Category</th><th>Material</th><th>Price</th><th>Stock</th><th>Actions</th></tr></thead><tbody id="adProductRows"></tbody></table></div>
+            </section>
+          </section>
+
+          <section class="admin-page" id="adPageOrders">
+            <section class="admin-card"><div class="admin-sec-head"><div><h3>Orders</h3><p>Manage booked orders, payments, delivery and customer fulfilment.</p></div><div class="admin-sec-actions"><button class="admin-btn" id="adExportOrders" type="button">⇩ Export All</button></div></div>
+              <div class="admin-order-tabs"><button class="admin-order-tab all active" data-order-tab="All">All <span class="admin-tab-count" id="adTabAll">0</span></button><button class="admin-order-tab new" data-order-tab="New">New <span class="admin-tab-count" id="adTabNew">0</span></button><button class="admin-order-tab pending" data-order-tab="Pending">Pending <span class="admin-tab-count" id="adTabPending">0</span></button><button class="admin-order-tab delivered" data-order-tab="Delivered">Delivered <span class="admin-tab-count" id="adTabDelivered">0</span></button></div>
+              <div class="admin-order-toolbar"><input class="admin-search" id="adOrderSearch" type="search" placeholder="⌕  Search order, customer or product"><select class="admin-select" id="adOrderFilter"><option value="All">All status</option><option>Pending</option><option>Confirmed</option><option>Processing</option><option>Shipped</option><option>Delivered</option><option>Cancelled</option></select><div class="admin-bulk"><label style="display:flex;align-items:center;gap:6px;font:500 10px Roboto;color:#707a8d"><input class="admin-check" id="adSelectAll" type="checkbox"> Select All</label><button class="admin-btn yellow" id="adPrintSelected" type="button">▣ Print</button><select class="admin-select" id="adBulkStatus"><option value="">Update Order⌄</option><option value="Pending">Pending</option><option value="Confirmed">Confirmed</option><option value="Processing">Processing</option><option value="Shipped">Shipped</option><option value="Delivered">Delivered</option><option value="Cancelled">Cancelled</option></select><button class="admin-btn" id="adExportSelected" type="button">⇩</button></div></div>
+              <div id="adOrderCards"></div>
+            </section>
+          </section>
+
+          <section class="admin-page" id="adPageCustomers">
+            <section class="admin-card"><div class="admin-sec-head"><div><h3>Customers</h3><p>Customer accounts and their order history, derived from the website data.</p></div></div><div class="admin-toolbar"><input class="admin-search" id="adCustomerSearch" type="search" placeholder="Search customer or account"><span class="admin-count" id="adCustomerCount">0 customers</span></div><div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>Customer</th><th>Account</th><th>Orders</th><th>Total Spent</th><th>Last Order</th></tr></thead><tbody id="adCustomerRows"></tbody></table></div></section>
+          </section>
+
+          <section class="admin-page" id="adPageCustom">
+            <section class="admin-card"><div class="admin-sec-head"><div><h3>Custom Design Requests</h3><p>Manage enquiries received from the Custom Design form and follow up with customers.</p></div></div><div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>Date</th><th>Customer</th><th>Design</th><th>Occasion</th><th>Style</th><th>Budget</th><th>Needed By</th><th>Reference Link</th><th>Message</th><th>Status</th><th>Contact</th></tr></thead><tbody id="adCustomRows"></tbody></table></div></section>
+          </section>
+
+          <section class="admin-page" id="adPageReports">
+            <div class="admin-stats"><div class="admin-stat"><div class="admin-stat-top"><span class="admin-stat-label">Average Order</span><span class="admin-stat-icon">₹</span></div><b id="adAvgOrder">₹0</b><small>Across booked orders</small></div><div class="admin-stat"><div class="admin-stat-top"><span class="admin-stat-label">Delivered</span><span class="admin-stat-icon">✓</span></div><b id="adDelivered">0</b><small>Completed orders</small></div><div class="admin-stat"><div class="admin-stat-top"><span class="admin-stat-label">Pending</span><span class="admin-stat-icon">!</span></div><b id="adPending">0</b><small>Need attention</small></div><div class="admin-stat"><div class="admin-stat-top"><span class="admin-stat-label">Cancelled</span><span class="admin-stat-icon">×</span></div><b id="adCancelled">0</b><small>Cancelled orders</small></div><div class="admin-stat"><div class="admin-stat-top"><span class="admin-stat-label">Top Category</span><span class="admin-stat-icon">◇</span></div><b id="adTopCategory" style="font-size:18px">—</b><small>By ordered quantity</small></div></div>
+            <div class="admin-report-grid"><section class="admin-card"><div class="admin-sec-head"><div><h3>Best Selling Jewellery</h3><p>Based on quantities in booked orders.</p></div></div><div id="adTopProducts" class="admin-bar-list"></div></section><section class="admin-card"><div class="admin-sec-head"><div><h3>Category Performance</h3><p>Order quantities by jewellery category.</p></div></div><div id="adCategoryReport" class="admin-bar-list"></div></section></div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </section>
+</div>
+<div class="admin-detail-modal" id="adOrderModal"><div class="admin-detail-box"><div class="admin-detail-head"><b id="adDetailTitle">Order Details</b><button class="admin-detail-close" id="adDetailClose" type="button">×</button></div><div class="admin-detail-body" id="adDetailBody"></div></div></div>
+<div class="veil" id="veil"><svg viewBox="0 0 90 74" fill="none" stroke="#e8c18a" stroke-width="2.5" stroke-linejoin="round"><path d="M22 4h46l19 21L45 70 3 25z"/><path d="M3 25h84M32 4l-9 21 22 45 22-45-9-21M45 4l-10 21M45 4l10 21M35 25l10 45 10-45"/></svg></div>
+<div class="toast" id="toast">Added to your cart</div>
+
+
+<script src="js/supabase.js" defer></script>
+<script src="js/data.js" defer></script>
+<script src="js/main.js" defer></script>
+<script src="js/admin.js" defer></script>
+</body>
+</html>

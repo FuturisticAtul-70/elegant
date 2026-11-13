@@ -1,0 +1,8 @@
+# Secrets
+.env
+backend/.env
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
